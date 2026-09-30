@@ -2,7 +2,7 @@ const r = require('raylib');
 
 const WINDOW_WIDTH = 800;
 const WINDOW_HEIGHT = 700;
-const TITLE = "RAYLIB-TEMPLATE";
+const TITLE = "Two - Points";
 const FPS = 50;
 
 function running() {
@@ -11,6 +11,7 @@ function running() {
 
 
 function setup() {
+    r.SetTraceLogLevel(r.LOG_NONE)
     r.InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, TITLE);
     r.SetTargetFPS(FPS);
 }
