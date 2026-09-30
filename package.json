@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "approve": "^0.0.12",
+    "raylib": "^0.14.0",
+    "scripts": "^0.1.0"
+  },
+  "allowScripts": {
+    "raylib@0.14.0": true
+  }
+}
